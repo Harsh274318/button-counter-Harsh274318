@@ -3,11 +3,11 @@ import React from "react";
 import './../styles/App.css';
 import { useState } from "react";
 const App = () => {
-  const [counter,setCount] = useState(0)
+  const [counter,setCounter] = useState(0)
   return (
     <div>
       <p>Button clicked {counter} times</p>
-      <button onClick={()=> setCount(counter+1)}>Click me</button>
+      <button onClick={()=> setCounteer(counter+1)}>Click me</button>
         {/* Do not remove the main div */}
     </div>
   )
